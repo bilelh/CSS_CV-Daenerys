@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -66,7 +68,25 @@ header {
 td, th {
     padding-left:50px;
 }
-
+.motivation {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.asideMotiv {
+    display: flex;
+    max-width: 300px;
+    background: #367099;
+    margin-top: 30px;
+    color: black;
+}
+.mainMotiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    color: #333;
+}
 
 
 
